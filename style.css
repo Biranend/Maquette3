@@ -1,0 +1,167 @@
+@import url("https://fonts.google.com/specimen/Mulish");
+
+:root{
+    --white: #FFFFFF;
+    --orange: #FF6D1B;
+    --grisFon: #333333;
+    --gris: #6B6B6B;
+    --grisCl: #C0C0C0;
+    --black: #000000;
+}
+
+*{
+    padding: 10px 15px 15px 15px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+}
+header{
+    height: 80px;
+}
+.logo img{
+    height: 80px;
+    position: relative;
+    top: -40px;
+}
+nav{
+    background-color: var(--white);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+   float: right;
+   margin-top: 0;
+   padding-top: 0;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   padding-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0;
+}
+nav ul li a{
+    color: var(--black);
+    font-size: 15px;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    transition: .5s;
+}
+.a:hover{
+    color: var(--white);
+    background-color: var(--grisFon);
+    border: 2px solid var(--black);
+    border-radius: 30px;
+}
+.con{
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 30px;
+}
+.con:hover{
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+}
+.ins{
+    border: 2px solid var(--orange);
+    border-radius: 30px;
+    color: var(--orange);
+}
+.ins:hover{
+    color: var(--white);
+    background-color: var(--orange);
+}
+/*====================================================*/
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 120px;
+}
+.leftcol{
+    width: 6000px;
+}
+.leftcol, h1{
+    padding: 0 0 0 8px;
+    margin: 0;
+}
+.tit1{
+    color: var(--gris);
+    font-weight: normal;
+    font-size: 35px;
+}
+.tit2{
+    color: var(--grisFon);
+    font-size: 45px;
+    font-weight: normal;
+}
+.text{
+    font-size: 15px;
+    color: var(--gris);
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.plus{
+    color: var(--white);
+    border: 2px solid ;
+    border-radius: 30px;
+    background-color: var(--orange);
+    font-weight: bold;
+}
+.plus:hover{
+    color: var(--orange);
+    background-color: var(--white);
+    font-weight: bold;
+}
+.rightcol{
+    background-image: url('images/web.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    right: 80px;
+    padding-right: 120px;
+    top: 190px;
+}
+.fleche{
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    font-size: 30px;
+}
+/*------------------------------------------------*/
+footer{
+    text-align: center;
+    padding: 90px 0 0 0;
+    margin: 0;
+}
+.pré{
+    color: var(--grisCl);
+}
+.pré:hover{
+    color: black;
+    background-color: var(--grisCl);
+    border: 2px solid var(--black);
+    border-radius: 30px;
+}
+.sui{
+    color: black;
+    font-weight: bold;
+}
+.sui:hover{
+    color: var(--white);
+    background-color: var(--grisFon);
+    border: 2px solid var(--black);
+    border-radius: 30px;
+}
+.bar{
+    color: var(--grisCl);
+    height: 900px;
+}
